@@ -58,7 +58,7 @@ Item
 
     width: 415*Screen.width/540
     height: getHeight()
-    anchors.right: parent.right 
+    //anchors.right: parent.right 
     
     Rectangle
     {

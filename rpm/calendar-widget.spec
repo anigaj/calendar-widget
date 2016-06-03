@@ -1,5 +1,5 @@
 Name:          calendar-widget
-Version:       0.1
+Version:       0.2
 Release:       1
 Summary:       Calendar widget for Lock screen
 Group:         System/Patches
@@ -42,6 +42,8 @@ fi
 
 %changelog
 *  Wed Dec 02 2015 Builder <builder@...>
+0.2
+- bug fix: Right anchor was hard coded so would cause widget to stretch if placed in the center. 
 
 0.1
 - First build.
