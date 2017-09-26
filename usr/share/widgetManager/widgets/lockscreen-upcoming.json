@@ -3,8 +3,7 @@
     "description": "Shows calendar events for the next seven days on the lockscreen",
     "path":"/usr/share/widgetManager/widgets/lockscreen-upcoming",
     "main": "ShowCalEvents",
-    "height": "variable",
-    "width": "0.8",
+    "preview": "ShowCalEventsPreview",
 	"infos": {
         "maintainer": "Anant Gajjar"
 	}

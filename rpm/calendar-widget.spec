@@ -1,5 +1,5 @@
 Name:          calendar-widget
-Version:       0.2
+Version:       0.3
 Release:       1
 Summary:       Calendar widget for Lock screen
 Group:         System/Patches
@@ -7,8 +7,7 @@ Vendor:        Anant Gajjar
 Distribution:  SailfishOS
 Packager: Anant Gajjar
 License:       GPL
-Requires: widget-manager
-Requires: sailfish-version >= 1.1.9
+Requires: widget-manager >= 0.4
 Conflicts: lockscreen-upcoming
 BuildArch: noarch
 
@@ -42,6 +41,9 @@ fi
 
 %changelog
 *  Wed Dec 02 2015 Builder <builder@...>
+0.3
+- Updated for preview functionality  in widget manager
+- bug fix: event text was going outside box
 0.2
 - bug fix: Right anchor was hard coded so would cause widget to stretch if placed in the center. 
 
